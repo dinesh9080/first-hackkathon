@@ -1,6 +1,6 @@
 async function completed() {
     try {
-      let res = await fetch("http://makeup-api.herokuapp.com/api/v1/products.json");
+      let res = await fetch("https://makeup-api.herokuapp.com/api/v1/products.json");
       let res1 = await res.json();
       console.log(res1);
       for (var i = 0; i < 99; i++) {
